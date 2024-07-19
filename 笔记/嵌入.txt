@@ -1,0 +1,4 @@
+PHP：运行在服务器端的脚本语言，可以嵌入到HTML中
+<script lanugage="php"></script>（可能和前端冲突，基本不用）
+<?php php代码 ?>
+可以不写?>，会全部认为php

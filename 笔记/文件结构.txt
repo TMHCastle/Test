@@ -1,0 +1,10 @@
+app核心代码，user.php  /http/controllers控制器，模型
+bootstrap启动文件
+config配置文件
+database数据库文件
+factories工厂类 migration迁移文件，用于创建数据表 seeders种子
+public入口文件，让入口只能访问一个文件，外部静态文件全部放到public目录下，单一入口文件也在这个目录，配置虚拟机时候需要将站点位置指定到public下
+resources资源文件，包括views视图文件、lang语言包文件
+routes定义路由文件，web.php
+storage缓存日志上传，linux中需要有可写权限
+vendor第三方支持

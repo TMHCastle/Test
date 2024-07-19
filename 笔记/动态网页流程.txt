@@ -1,0 +1,19 @@
+静态
+
+输入URL（Uniformed Resource Location统一资源定位）互联网上的绝对路径：http://localhost:80(端口)/index.html(URI)
+→DNS服务器（查找对应的IP）（localhost 127.0.0.1）
+→通过IP 127.0.0.1找到服务器
+→Apache根据URI（统一资源标识，即目标机器上某个文件的相对路径）获取文件（index.html）
+→返回值
+→浏览器解析
+
+动态：①需要服务器解析②需要数据库
+
+输入URL  http://localhost:80/index.php?=
+→DNS服务器（localhost 127.0.0.1）
+→通过IP 127.0.0.1找到服务器
+→Apache根据URI获取文件（index.php）使用PHP引擎并解析（可能需要操作数据库）
+→PHP引擎访问数据库服务器
+→PHP引擎交给Apache html
+→返回值
+→浏览器解析
