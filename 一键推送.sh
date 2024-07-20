@@ -1,5 +1,5 @@
 now=$(date "+%Y-%m-%d %H:%M:%S")
-echo "Change Directory to D:/Git_G"
+echo "Change Directory to E:/项目/测试"
 cd D:/Git_G
 echo "开始add-commit-pull-push流程"
 git add .
