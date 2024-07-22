@@ -1,0 +1,23 @@
+/routs/web.php用于编辑路由
+
+function是返回函数，可以任意返回
+/是路径
+get是方法
+Route::get('/', function () {
+    echo 'test';
+});
+
+分组路由
+Route::group(['prefix'=>'admin'], function () {
+    Route::get('/login', function () {
+        echo 'admin login';
+    })->name('admin.login');
+
+    Route::get('/index', function () {
+        echo 'admin index';
+    })->name('admin.index');
+});
+
+控制器路由
+Route::get('/home/index/index', 'Home\IndexController@index');
+方法('控制器位置(没有controller)和方法','控制器位置')

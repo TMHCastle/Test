@@ -1,0 +1,8 @@
+/app/Html/下面的控制器(Controller)
+大驼峰+Controller
+
+创建代码：
+$ php artisan make:controller 控制器名Controller
+
+控制器路由不走回调函数，把函数换成'控制器类名@方法名'
+Route::请求方法('路由表达式','控制器类名@方法')
