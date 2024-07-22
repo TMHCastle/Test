@@ -1,1 +1,2 @@
 Laravel
+php artisan命令在laravel主目录下可以用，不能用于分目录和父级
