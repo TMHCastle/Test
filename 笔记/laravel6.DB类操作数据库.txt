@@ -1,0 +1,14 @@
+DB类基本用法：
+DB::table('tableName')
+
+// 建立数据库的方式
+1.sql语句，creat
+2.图形界面
+
+有数据表但框架需要链接。在.env文件中第二段
+DB_CONNECTION=MySQL
+DB_HOST=localhost
+DB_PORT=3306
+DB_DATABASE=mydb
+DB_USERNAME=root
+DB_PASSWORD=root

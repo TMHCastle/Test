@@ -5,5 +5,15 @@ Input::all();获取所有用户的输入
 Input::get('');获取单个用户的输入
 Input::only([]);获取指定几个用户的输入
 Input::except([]);获取指定几个用户的输入以外的所有参数
+Input::has('');判断某个输入的参数是否存在
 
-dd(Input::())可以直接看代码返回值
+dd(Input::())可以直接看代码返回值并且结束代码
+=dump+die
+var_dump
+
+
+/Http/Request和Input很相似
+
+
+想使用facades又不想长写入，可以在config/app.php里定义别名（在aliases数组里定义）
+如'' => Illuminate\...\::class,
