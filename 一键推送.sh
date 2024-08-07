@@ -14,7 +14,7 @@ git add .
 git commit -m "Test ver.$now"
 
 #推送人
-git pull git@github.com:EasyToFind1/Test.git
-git push git@github.com:EasyToFind1/Test.git
+git pull
+git push
 echo "推送成功！可以关闭了"
 read
