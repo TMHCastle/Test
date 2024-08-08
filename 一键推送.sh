@@ -2,8 +2,6 @@
 now=$(date "+%Y-%m-%d %H:%M:%S")
 
 #切换到目标文件夹
-echo "Change Directory to D:/Note"
-cd D:/Note
 
 #流程
 echo "开始add-commit-pull-push流程"
