@@ -1,0 +1,71 @@
+php命令
+缓存
+php artisan cache:clear
+php artisan route:clear
+php artisan config:clear
+php artisan view:clear
+php artisan route:cache // 清除缓存同时重新生成缓存路由文件
+
+安装laravel-sitemap
+composer require spatie/laravel-sitemap
+批量创建迁移文件
+composer require --dev "kitloong/laravel-migrations-generator" 
+php artisan migrate:generate
+yes
+批次号
+
+翻译组件
+composer require mcamara/laravel-localization
+php artisan vendor:publish --provider="Mcamara\LaravelLocalization\LaravelLocalizationServiceProvider"
+composer require astrotomic/laravel-translatable
+php artisan vendor:publish --provider="Astrotomic\Translatable\TranslatableServiceProvider" --tag="config"
+神秘filament配置语句
+php artisan vendor:publish --force --tag=livewire:assets
+重新加载配置文件
+composer dump-autoload
+谷歌翻译
+composer require stichoza/google-translate-php
+
+mysql命令
+启动mysqld --console
+
+git命令
+推送
+git pull
+git add .
+git commit -m ""
+git push
+commit撤回一步
+git reset --soft HEAD^
+转义确认
+git config --global core.autocrlf true
+
+css图片居中
+mix-blend-mode: multiply; top: 50%; left: 50%; transform: translate(-50%, -50%); max-width: 100%; height: auto;
+
+
+
+
+
+
+
+
+# CREATE TABLE sll_task LIKE bing_task;
+# INSERT INTO sll_task SELECT * FROM bing_task;
+# CREATE TABLE baidu_task LIKE bing_task;
+# INSERT INTO baidu_task SELECT * FROM bing_task;
+
+# CREATE TABLE sll_datas LIKE bing_datas;
+# INSERT INTO sll_datas SELECT * FROM bing_datas;
+# CREATE TABLE baidu_datas LIKE bing_datas;
+# INSERT INTO baidu_datas SELECT * FROM bing_datas;
+
+# CREATE TABLE sll_screenshots LIKE bing_screenshots;
+# INSERT INTO sll_screenshots SELECT * FROM bing_screenshots;
+# CREATE TABLE baidu_screenshots LIKE bing_screenshots;
+# INSERT INTO baidu_screenshots SELECT * FROM bing_screenshots;
+
+CREATE TABLE sll_url_task LIKE bing_url_task;
+INSERT INTO sll_url_task SELECT * FROM bing_url_task;
+CREATE TABLE baidu_url_task LIKE bing_url_task;
+INSERT INTO baidu_url_task SELECT * FROM bing_url_task

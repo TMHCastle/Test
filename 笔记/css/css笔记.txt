@@ -1,0 +1,15 @@
+position：元素在文档中的指定位置
+	static：无定位
+	fixed：相对浏览器窗口位置固定
+	relative：相对定位元素
+	absolute：位置相对于最近的已定位父元素
+	sticky：粘性定位，正常情况下滚动，超过范围就和fixed一样
+	top、right、bottom、left
+-webkit：针对safari浏览器的支持
+	-transform：元素2d3d转换
+		scale：缩放
+		rotate：3D
+	-transform-origin：更改基点位置
+opacity：透明度级别
+border-radius：圆角边框
+text-decoration：下划线
