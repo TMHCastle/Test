@@ -9,7 +9,7 @@ git checkout main
 git add .
 
 #推送注释
-git commit -m "Test ver.$now"
+git commit -m "录播 ver.$now"
 
 #推送人
 git pull
